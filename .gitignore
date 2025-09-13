@@ -1,0 +1,47 @@
+# Python virtual environments
+CarRental-env/
+venv/
+env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Database files
+*.sqlite3
+*.db
+*.sqlite
+
+# Environment / secrets
+.env
+.env.* 
+secrets.*
+credentials.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Logs
+*.log
+
+# Node modules (if frontend added later)
+node_modules/
