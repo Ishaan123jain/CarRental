@@ -14,4 +14,3 @@ python-multipart
 
 fastapi-mail
 
-psycopg2

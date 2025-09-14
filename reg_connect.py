@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Form, APIRouter, Depends
 from fastapi.responses import HTMLResponse
-import psycopg2
 from Database import get_db
 from sqlalchemy import func
 from sqlalchemy.orm import Session

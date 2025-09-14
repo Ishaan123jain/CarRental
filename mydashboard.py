@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Form, Request, APIRouter, Depends, HTTPException, status
+from fastapi import FastAPI, Form, Request, APIRouter, Depends
 from fastapi.responses import HTMLResponse
 from datetime import date
 from fastapi.responses import HTMLResponse
@@ -6,7 +6,6 @@ from sqlalchemy import func
 from sqlalchemy.orm import Session
 from Database import get_db
 import models
-from typing import List
 
 routers = APIRouter(
     tags=['Dashboard'],
