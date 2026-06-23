@@ -2,8 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from models import Base  # import Base from your models.py
 
-DATABASE_URL = 'postgresql://postgres:Ishaan123@database-1.ctsgewgyisi5.ap-south-1.rds.amazonaws.com:5432'
-
+#DATABASE_URL = 'postgresql://postgres:Ishaan123@database-1.ctsgewgyisi5.ap-south-1.rds.amazonaws.com:5432'
+DATABASE_URL = 'postgresql://postgres:Ishaan123%40%23@localhost/CarRental'
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine, expire_on_commit=False)
 
